@@ -7,12 +7,7 @@ variable "name" {
 }
 
 variable "docdb_instance_class" {
-  default = "db.r4.large"
+  default = "db.r5.large"
 }
 
 variable "docdb_password" {}
-
-# optional
-variable "certificate_arn" {}
-variable "zone_id" {}
-variable "main_domain" {}
